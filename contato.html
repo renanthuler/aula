@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Renan Thuler</title>
+    </head>
+<style>
+    header{ /*formata cabeçalho*/
+        background-color: #0af098;
+        text-align: center;
+        padding: 10px;
+        border: 5px;
+        margin: black;
+        border-style: double;
+        text-transform: uppercase;
+    }
+
+    article{ /*formata conteiner do conteudo*/
+        text-align: center;
+        height: auto;
+    }
+    
+    p{ /*formata paragrafo*/
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 32px;
+    }
+
+    h1{ /*formata titulo*/
+        font-family: serif;
+        text-align: center;
+    }
+
+    body{ /*formata corpo da pagina*/
+        background-color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav{ /*formata conteiner do botao index*/
+        text-align: center;
+        height: 30px;
+    }
+
+    input[type="submit"]{ /*formata botões submit*/
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 312px;
+        height: 42px;
+        color: white;
+        border-radius: 5px;
+        background-color: #0b4e02;
+        transition: 0.5s;
+    }
+
+    input[type="submit"]:hover{ /*muda cor do submit ao por o mouse em cima*/
+        background-color: #0af098;
+        color: black;
+    }
+
+    .btn { /*formata botao index*/
+        font-weight: bold;
+        outline-color: black;
+        border: 5px;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13;
+        width: 165px;
+        height: 35px;
+        background-color: #0b4e02;
+        padding: 9px 50px;
+        color: rgb(255, 255, 255);
+        text-decoration-line: none;
+        transition: 0.5s;
+    }
+
+    .btn:hover{ /*muda cor dos botoes ao por o mouse em cima*/
+        background-color: #0af098;
+        color: black;
+    }
+
+    footer{ /*formata rodapé*/
+        margin: 10px;
+        height: auto;
+        text-align: center;
+        bottom: 0px;
+        border: 5px;
+        margin: black;
+        font-size: 24px;
+        text-transform: uppercase;
+        border-style: double;
+        background-color: #0af098;
+    }
+
+    textarea{ /*formata caixa de texto*/
+        text-align: left;
+        width: 312px;
+        height: 100px;
+    }
+
+
+</style>
+
+<body>
+    <header>
+        <h1>Contate-me!</h1> <!--cabeçalho-->
+    </header>
+    <br>
+    <nav>
+        <a class="btn" href="index.html">Página Inicial</a> <!--botao para pagina index-->
+    </nav>
+    <article>
+        <p>Gostou do meu perfil? Insira suas informações abaixo e entre em contato!</p>
+        <p style="font-size: 18px; text-align: center;">Nome<br>      <!--formata caixas de texto-->
+        <input type="text" placeholder='Nome' size="40"/></p>
+        <p style="font-size: 18px; text-align: center;">E-mail<br>       <!--formata caixas de texto-->
+        <input type="text" placeholder='E-mail' size="40"/></p>
+        <p style="font-size: 18px; text-align: center;">Telefone<br>    <!--formata caixas de texto-->
+        <input type="text" placeholder='Telefone' size="40"/></p>
+        <p style="font-size: 18px; text-align: center;">Insira sua mensagem<br>     <!--formata caixas de texto-->
+        <textarea placeholder="Digite sua mensagem"></textarea><br></p>      <!--caixa de texto-->
+        <input type="submit" value="Enviar Mensagem"><br>       <!--botao para enviar informações preenchidas-->
+    </article>
+
+    <footer>
+        <p>Conteúdo para fins acadêmicos</p> <!--rodapé-->
+    </footer> 
+
+</body>
+</html>
